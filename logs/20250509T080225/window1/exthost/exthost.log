@@ -1,0 +1,14 @@
+2025-05-09 08:02:26.792 [info] Extension host with pid 9023 started
+2025-05-09 08:02:26.792 [info] Skipping acquiring lock for /var/www/html/User/workspaceStorage/501b3168a6d4def60d6f486b6911885b.
+2025-05-09 08:02:27.032 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-09 08:02:27.075 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-09 08:02:27.286 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-09 08:02:27.332 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-09 08:02:27.415 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-09 08:02:27.569 [info] Eager extensions activated
+2025-05-09 08:02:27.601 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-09 08:02:27.605 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-09 08:02:56.109 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-05-09 08:03:05.877 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2025-05-09 08:51:35.679 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-09 08:51:35.693 [info] Extension host with pid 9023 exiting with code 0

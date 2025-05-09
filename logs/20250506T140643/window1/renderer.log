@@ -1,0 +1,12 @@
+2025-05-06 14:06:44.273 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-06 14:06:44.273 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-06 14:06:44.273 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-06 14:06:44.593 [info] Started local extension host with pid 40340.
+2025-05-06 14:06:45.847 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-05-06 14:06:47.345 [info] [perf] Render performance baseline is 21ms
+2025-05-06 14:06:53.944 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-06 14:06:53.944 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-06 14:06:53.944 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-06 14:06:54.222 [info] Started local extension host with pid 40545.
+2025-05-06 14:06:54.896 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-05-06 14:06:56.836 [info] [perf] Render performance baseline is 21ms

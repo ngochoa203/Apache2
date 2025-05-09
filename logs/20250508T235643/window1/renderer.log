@@ -1,0 +1,14 @@
+2025-05-08 23:56:43.950 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 23:56:43.950 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 23:56:43.950 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 23:56:44.343 [info] Started local extension host with pid 13764.
+2025-05-08 23:56:45.498 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-05-08 23:56:47.067 [info] [perf] Render performance baseline is 25ms
+2025-05-08 23:57:08.245 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 23:57:08.245 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 23:57:08.245 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-08 23:57:08.325 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-05-08 23:57:08.508 [info] Started local extension host with pid 13879.
+2025-05-08 23:57:09.234 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-05-08 23:57:11.080 [info] [perf] Render performance baseline is 32ms
+2025-05-09 00:57:13.921 [info] [Extensions]: Checking for updates. Reason: Product update

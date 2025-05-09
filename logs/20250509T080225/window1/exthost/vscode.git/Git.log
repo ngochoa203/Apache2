@@ -1,0 +1,93 @@
+2025-05-09 08:02:27.669 [info] [main] Log level: Info
+2025-05-09 08:02:27.669 [info] [main] Validating found git in: "git"
+2025-05-09 08:02:27.669 [info] [main] Using git "2.47.2" from "git"
+2025-05-09 08:02:27.669 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-09 08:02:27.669 [info] > git rev-parse --show-toplevel [8ms]
+2025-05-09 08:02:27.669 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.669 [info] > git rev-parse --show-toplevel [39ms]
+2025-05-09 08:02:27.669 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.678 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.678 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.685 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.685 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.692 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.692 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.698 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:02:27.698 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.706 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.706 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.714 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:02:27.714 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.721 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.721 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.734 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-09 08:02:27.734 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.742 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.742 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.749 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.749 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.756 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.756 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.764 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:02:27.764 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.771 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.771 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.778 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:02:27.778 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.784 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:02:27.784 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.791 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:02:27.791 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.798 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.798 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.805 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.805 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.811 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:02:27.811 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.815 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-09 08:02:27.822 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:02:27.822 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:27.939 [info] > git rev-parse --show-toplevel [5ms]
+2025-05-09 08:02:27.939 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:28.731 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-09 08:02:28.731 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:33.151 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:02:33.151 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:02:56.077 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:02:56.077 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:03:05.841 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:03:05.841 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:03:27.195 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:03:27.195 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:03:37.342 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:03:37.342 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:04:01.396 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:04:01.396 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:04:06.066 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:04:06.066 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:15:17.463 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:15:17.463 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:16:30.910 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:16:30.910 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:16:34.322 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:16:34.322 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:16:35.593 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:16:35.593 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:17:48.371 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:17:48.371 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:17:58.575 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:17:58.575 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:18:16.839 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:18:16.839 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:32:28.055 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:32:28.055 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:32:32.045 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:32:32.045 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:32:35.475 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-09 08:32:35.475 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:32:38.494 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:32:38.495 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:32:41.553 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:32:41.553 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
+2025-05-09 08:32:44.032 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-09 08:32:44.032 [info] lỗi nghiêm trọng: không phải là kho git (các thư mục cha cũng không phải): .git
