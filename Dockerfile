@@ -5,4 +5,4 @@ FROM php:8.1-apache
 COPY . /var/www/html/
 
 # Mở port 80
-EXPOSE 8080
+EXPOSE 80
